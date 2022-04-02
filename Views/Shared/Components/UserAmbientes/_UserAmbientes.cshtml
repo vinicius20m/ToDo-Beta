@@ -1,0 +1,13 @@
+
+
+@model IEnumerable<Ambiente>
+
+@foreach (var item in Model)
+{
+    <li class="nav-item">
+        <a href="@Url.Action("Index", "Show", new { id = @item.Id })" class="nav-link">
+        <i class="far fa-circle nav-icon"></i>
+        <p>@item.Title</p>
+        </a>
+    </li>
+}

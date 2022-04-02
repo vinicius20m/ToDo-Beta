@@ -1,0 +1,126 @@
+
+.Card {
+    
+    flex: 1;
+    margin: 20px;
+    text-align: center;
+    border: 3px solid #343a40;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #fff;
+    
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+}
+
+.Card .Conteudo {
+    
+    flex: 1;
+    color: #000;
+    padding: 15px 0px;
+}
+
+.Card .Header {
+    
+    font-size: 21px; 
+    cursor: pointer;
+    padding: 5px 0px;
+    
+    transition: background-color 420ms linear, color 420ms linear;
+    /* transition: color 390ms linear; */
+    
+}
+
+.Card .Header:hover{
+    
+    font-size: 21px; 
+    cursor: pointer;
+    padding: 5px 0px;
+    
+    transition: background-color 60ms linear, color 60ms linear;
+    /* transition: color 60ms linear; */
+    
+}
+
+
+/* BASIC COLORS CARD */
+
+/* .Quadro .Card{
+    
+    border-color: #1e5840;
+}
+
+.Item .Card{
+    
+    border-color: #1f4157;
+}
+
+
+.Quadro .Card .Header{
+    
+    background-color: #43da9b;
+    color: rgb(0, 0, 0);
+}
+
+.Quadro .Card .Header:hover{
+    
+    background-color: #1e5840;
+    color: rgb(255, 255, 255);
+}
+
+.Item .Card .Header {
+    
+    background-color: #69b2e4;
+    color: rgb(0, 0, 0);
+}
+
+.Item .Card .Header:hover {
+    
+    background-color: #1f4157;
+    color: hsl(0, 0%, 100%);
+} */
+
+.moveItem{
+    color: rgb(0, 0, 0);
+    transition: color 420ms;
+}
+.moveItem:hover{
+    color: #fff;
+    transition: color 60ms;
+}
+
+
+/* UKRAINE COLOR THEME --SLAVAUKRAINI-- */
+
+.Quadro .Card{
+    
+    border-color: #005BBB;
+}
+.Item .Card{
+    
+    border-color: #FFD500;
+}
+
+
+.Quadro .Card .Header{
+    
+    background-color: #85abd4;
+    color: rgb(0, 0, 0);
+}
+.Quadro .Card .Header:hover{
+    
+    background-color: #005BBB;
+    color: rgb(255, 255, 255);
+}
+
+.Item .Card .Header {
+    
+    background-color: #fff3b6;
+    color: rgb(0, 0, 0);
+}
+.Item .Card .Header:hover {
+    
+    background-color: #FFD500;
+    color: hsl(0, 0%, 100%);
+}

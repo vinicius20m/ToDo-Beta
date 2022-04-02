@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Testando a merda do React";
+}
+
+<h1>Começo da pagina</h1>
+<hr>
+<br>
+<div id="root"></div>
+
+@section ReactScripts{
+
+    <script type="module" src="@Url.Content("~/js/Test.jsx")"></script>
+}
+
+@section Scripts{
+
+    <script src="@Url.Content("~/js/site.js")"></script>
+}

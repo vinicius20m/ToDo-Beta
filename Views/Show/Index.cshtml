@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Meus Quadros";
+}
+
+@section Style{
+
+    <link rel="stylesheet" href="~/css/Show/Index.css" />
+    <link rel="stylesheet" href="~/css/Show/Components/Layout/Card.css" />
+}
+<h1><center> @ViewData["AmbienteTitle"] </center></h1>
+<hr>
+<br>
+<div id="root"></div>
+
+@section ReactScripts{
+
+    <script type="module" src="~/js/Show/Main.jsx"></script>
+}
+
+@section Scripts{
+
+    <script>
+
+//      VARIAVEIS GLOBAIS 
+        var gUserId = "@ViewData["AuthId"]"
+        var gAmbienteId = @ViewData["AmbienteId"] ;
+        var token = "@ViewData["ApiToken"]" ;
+
+        
+        const apiAdress = "https://apitodo-mk1.herokuapp.com"
+        const apiAdress2 = "https://localhost:7250"
+        @* console.log(token) *@
+    </script>
+    
+    @* AXIOS *@
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+}

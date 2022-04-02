@@ -1,0 +1,245 @@
+﻿
+@using Microsoft.AspNetCore.Identity
+@using ToDo.Areas.Identity.Data
+
+@inject SignInManager<User> SignInManager
+@inject UserManager<User> UserManager
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Novo Modelo</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ToDo.styles.css" asp-append-version="true" />
+
+    @RenderSection("Style", false)
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="~/adm/plugins/fontawesome-free/css/all.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- Tempusdominus Bootstrap 4 -->
+    <link rel="stylesheet" href="~/adm/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+    <!-- iCheck -->
+    <link rel="stylesheet" href="~/adm/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <!-- JQVMap -->
+    <link rel="stylesheet" href="~/adm/plugins/jqvmap/jqvmap.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="~/adm/dist/css/adminlte.min.css">
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="~/adm/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+    <!-- Daterange picker -->
+    <link rel="stylesheet" href="~/adm/plugins/daterangepicker/daterangepicker.css">
+    <!-- summernote -->
+    <link rel="stylesheet" href="~/adm/plugins/summernote/summernote-bs4.min.css">
+</head>
+<body class="hold-transition sidebar-mini layout-fixed sidebar-collapse">
+    
+    <header>
+        @* <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3"> *@
+         
+
+        
+            <nav
+
+                class="@if(SignInManager.IsSignedIn(User)){<text>main-header</text>} navbar navbar-expand navbar-dark navbar-light box-shadow"
+                
+            >
+        
+        
+            <div class="container-fluid">
+                @* <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">UseReact</a> *@
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        @if (SignInManager.IsSignedIn(User))
+                        {
+                        <li class="nav-item">
+                            <a class="nav-link text-white" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Index">Inicio</a>
+                        </li>
+                        }else{
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="Identity" asp-page="/Account/Register"> Comece a organizar os seus afazeres de forma simples e rápida. Crie uma conta para entrar. </a>
+                        </li>
+                        }
+
+                        @* <li class="nav-item">
+                            <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li> *@
+
+
+                            @if (SignInManager.IsSignedIn(User))
+                            {
+
+                                <li class="nav-item">
+                                    <a class="nav-link " asp-area="" asp-controller="Ambientes" asp-action="Index">Ambientes</a>
+                                </li>
+                                @* <li class="nav-item">
+                                    <a class="nav-link " asp-area="" asp-controller="Show" asp-action="TestReact">Teste React</a>
+                                </li> *@
+                            }
+                    </ul>
+
+                    <partial name="_LoginPartial"/>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+@if (SignInManager.IsSignedIn(User)){
+
+    <aside class="main-sidebar sidebar-dark-primary elevation-4">
+        <!-- Brand Logo -->
+        <a class="brand-link" asp-area="" asp-controller="Home" asp-action="Index">
+            <!-- <img src="~/adm/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8"> -->
+            <center> <span class="brand-text font-weight-light  ">ToDo</span> </center>
+        </a>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+        <!-- Sidebar user panel (optional) -->
+        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+            <!-- <div class="image">
+            <img src="~/adm/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+            </div> -->
+            <div class="info">
+            <a asp-area="Identity" asp-page="/Account/Manage/Index" class="d-block">@await Component.InvokeAsync("UserName")</a>
+            </div>
+        </div>
+
+
+        <!-- BARRA DE PESQUISA -->
+        <!-- SidebarSearch Form -->
+        <div class="form-inline">
+            <div class="input-group" data-widget="sidebar-search">
+            <input class="form-control form-control-sidebar" type="search" placeholder="Pesquisar" aria-label="Search">
+            <div class="input-group-append">
+                <button class="btn btn-sidebar">
+                <i class="fas fa-search fa-fw"></i>
+                </button>
+            </div>
+            </div>
+        </div>
+
+
+
+        <!-- Sidebar Menu -->
+        <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+            <!-- Add icons to the links using the .nav-icon class
+                with font-awesome or any other icon font library -->
+            <li class="nav-item">
+                <a href="#" class="nav-link active">
+                <i class="nav-icon fas fa-book"></i>
+                <p>
+                    Ambientes
+                    <i class="right fas fa-angle-left"></i>
+                </p>
+                </a>
+                <ul class="nav nav-treeview">
+
+                    @await Component.InvokeAsync("UserAmbientes")
+                </ul>
+            </li>
+            </ul>
+        </nav>
+        <!-- /.sidebar-menu -->
+        </div>
+        <!-- /.sidebar -->
+    </aside>
+}
+
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="@if(SignInManager.IsSignedIn(User)){<text>content-wrapper</text>}" style=" padding-top: 40px;">
+
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+    <!-- /.content-wrapper -->
+
+
+    <footer class="border-top text-muted main-footer">
+        <div class="container">
+            <strong>&copy; 2022 - ToDo</strong> - <a asp-area="" asp-controller="Home" asp-action="Index">Inicio</a>
+            <div class="float-right d-none d-sm-inline-block">
+                <b>Versão</b> 1.0
+            </div>
+        </div>
+    </footer>
+
+
+
+  @* **SCRIPTS**    -----------------------------------------------------------------     **/SCRIPTS** *@
+  @* **SCRIPTS**    -----------------------------------------------------------------     **/SCRIPTS** *@
+  @* **SCRIPTS**    -----------------------------------------------------------------     **/SCRIPTS** *@
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+  @* react *@
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  @* remarkable *@
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remarkable/2.0.1/remarkable.min.js" integrity="sha512-skYYbQHAuOTpeJTthhUH3flZohep8blA+qjZOY0VqmfXMDiYcWxu29F5UbxU4LxaIpGkRBk+3Qf8qaXfd9jngg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+  @* Template scripts *@
+    <!-- jQuery -->
+    <script src="~/adm/plugins/jquery/jquery.min.js"></script>
+    <!-- jQuery UI 1.11.4 -->
+    <script src="~/adm/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <script>
+    $.widget.bridge('uibutton', $.ui.button)
+    </script>
+    <!-- Bootstrap 4 -->
+    <script src="~/adm/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- ChartJS -->
+    <script src="~/adm/plugins/chart.js/Chart.min.js"></script>
+    <!-- Sparkline -->
+    <script src="~/adm/plugins/sparklines/sparkline.js"></script>
+    <!-- JQVMap -->
+    <script src="~/adm/plugins/jqvmap/jquery.vmap.min.js"></script>
+    <script src="~/adm/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+    <!-- jQuery Knob Chart -->
+    <script src="~/adm/plugins/jquery-knob/jquery.knob.min.js"></script>
+    <!-- daterangepicker -->
+    <script src="~/adm/plugins/moment/moment.min.js"></script>
+    <script src="~/adm/plugins/daterangepicker/daterangepicker.js"></script>
+    <!-- Tempusdominus Bootstrap 4 -->
+    <script src="~/adm/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+    <!-- Summernote -->
+    <script src="~/adm/plugins/summernote/summernote-bs4.min.js"></script>
+    <!-- overlayScrollbars -->
+    <script src="~/adm/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="~/adm/dist/js/adminlte.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <!-- <script src="~/adm/dist/js/demo.js"></script> -->
+    <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+    <script src="~/adm/dist/js/pages/dashboard.js"></script>
+
+    @RenderSection("ReactScripts", false)
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
