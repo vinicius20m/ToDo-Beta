@@ -6,7 +6,7 @@
     text-align: center;
     border: 3px solid #343a40;
     border-radius: 15px;
-    overflow: hidden;
+    overflow: clip;
     background-color: #fff;
     
     display: flex;
@@ -46,7 +46,7 @@
 
 /* BASIC COLORS CARD */
 
-/* .Quadro .Card{
+.Quadro .Card{
     
     border-color: #1e5840;
 }
@@ -79,7 +79,7 @@
     
     background-color: #1f4157;
     color: hsl(0, 0%, 100%);
-} */
+}
 
 .moveItem{
     color: rgb(0, 0, 0);
@@ -93,7 +93,7 @@
 
 /* UKRAINE COLOR THEME --SLAVAUKRAINI-- */
 
-.Quadro .Card{
+/* .Quadro .Card{
     
     border-color: #005BBB;
 }
@@ -123,4 +123,4 @@
     
     background-color: #FFD500;
     color: hsl(0, 0%, 100%);
-}
+} */

@@ -8,117 +8,117 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ToDo
 build_property.RootNamespace = ToDo
-build_property.ProjectDir = c:\Users\Vinícius MC\Documents\proj-da-htdocs\ultra C#\ASP_NET_MVC\ToDoPivo\ToDo\
+build_property.ProjectDir = C:\Users\Vinícius MC\Documents\proj-da-htdocs\ultra C#\ASP_NET_MVC\ToDoPivo\ToDo\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\Vinícius MC\Documents\proj-da-htdocs\ultra C#\ASP_NET_MVC\ToDoPivo\ToDo
+build_property.MSBuildProjectDirectory = C:\Users\Vinícius MC\Documents\proj-da-htdocs\ultra C#\ASP_NET_MVC\ToDoPivo\ToDo
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[C:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[C:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[C:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Ambientes/Create.cshtml]
+[C:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Ambientes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1iaWVudGVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Ambientes/Delete.cshtml]
+[C:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Ambientes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1iaWVudGVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Ambientes/Details.cshtml]
+[C:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Ambientes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1iaWVudGVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Ambientes/Edit.cshtml]
+[C:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Ambientes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1iaWVudGVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Ambientes/Index.cshtml]
+[C:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Ambientes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1iaWVudGVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Home/Index.cshtml]
+[C:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Home/Privacy.cshtml]
+[C:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Shared/Components/UserAmbientes/_UserAmbientes.cshtml]
+[C:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Shared/Components/UserAmbientes/_UserAmbientes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVXNlckFtYmllbnRlc1xfVXNlckFtYmllbnRlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Shared/Components/UserName/_UserName.cshtml]
+[C:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Shared/Components/UserName/_UserName.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVXNlck5hbWVcX1VzZXJOYW1lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Shared/Error.cshtml]
+[C:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Shared/_Layout copy.cshtml]
+[C:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Shared/_Layout copy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQgY29weS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Show/Index.cshtml]
+[C:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Show/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Show/TestReact.cshtml]
+[C:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Show/TestReact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd1xUZXN0UmVhY3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/_ViewImports.cshtml]
+[C:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/_ViewStart.cshtml]
+[C:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Shared/_Layout.cshtml]
+[C:/Users/Vinícius MC/Documents/proj-da-htdocs/ultra C\#/ASP_NET_MVC/ToDoPivo/ToDo/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-6chfm9nc76

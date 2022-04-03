@@ -161,13 +161,13 @@ export default () => {
                     <div className="modal fade" id={"editQuadroModal_"+c} tabIndex="-1" role="dialog" aria-hidden="true">
                         <div className="modal-dialog modal-dialog-centered" role="document">
                             <div style={{minWidth: 600}} className="modal-content">
-                            <div style={{background: "#85abd4"}} className="modal-header">
+                            <div style={{}} className="modal-header">
                                 <h4 className="modal-title" id="modalLongTitle">Editando o Quadro: <strong>{quadro.title}</strong></h4>
                                 <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
-                            <div style={{background: "#fff3b6"}} className="modal-body">
+                            <div style={{}} className="modal-body">
                                 
                                 <label style={{minWidth: 270}} > Titulo
                                     <input style={{ fontWeight: "bold"}} className="form-control" type="text" defaultValue={quadro.title} ref={el => titleInput.current[c] = el} />

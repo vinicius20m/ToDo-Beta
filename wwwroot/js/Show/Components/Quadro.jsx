@@ -184,11 +184,11 @@ export default (props) => {
                         <div style={{minHeight: 250}} className="modal-body">
                             
                             <label style={{minWidth: 270}} > Titulo
-                                <input style={{background: "#85abd4", fontWeight: "bold"}} className="form-control" type="text" defaultValue={item.title} ref={el => titleInput.current[c] = el} />
+                                <input style={{fontWeight: "bold"}} className="form-control" type="text" defaultValue={item.title} ref={el => titleInput.current[c] = el} />
                             </label>
                             <br />
                             <label style={{minWidth: 400}} > Descrição
-                                <textarea style={{background: "#fff3b6", fontWeight: "bold", minHeight: 100}} className="form-control" type="text" defaultValue={item.description} ref={el => descriptionInput.current[c] = el} />
+                                <textarea style={{fontWeight: "bold", minHeight: 100}} className="form-control" type="text" defaultValue={item.description} ref={el => descriptionInput.current[c] = el} />
                             </label>
 
                         </div>
@@ -212,10 +212,10 @@ export default (props) => {
                         <div style={{background: "#F4F6F9"}} className="modal-body">
 
                             <label>
-                                <h4 style={{color: "#005BBB"}}><strong>Escolha o Quadro que vai receber este Item</strong></h4>
-                                <select style={{fontWeight: "bold", color: "#d9b500", background: "#e1e5eb"}} className="form-control" ref={el => moveInput.current[c] = el}>
+                                <h4 style={{}}><strong>Escolha o Quadro que vai receber este Item</strong></h4>
+                                <select style={{fontWeight: "bold"}} className="form-control" ref={el => moveInput.current[c] = el}>
                                     {props.quadros.map((quadro, d) => {
-                                        return <option style={{background: "#FFD500", color: "black", fontWeight: "bold"}} key={"move-"+d} value={quadro.id}>{quadro.title}</option>
+                                        return <option style={{fontWeight: "bold"}} key={"move-"+d} value={quadro.id}>{quadro.title}</option>
                                     })}
                                     
                                 </select>
